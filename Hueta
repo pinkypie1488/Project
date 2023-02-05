@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>thousand</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <div class="logo">
+            <div class="logo1">
+                <img src="images/Ellipse 7.png" alt="">
+                <div class="logo2">
+                    <img src="images/Ellipse 11.png" alt="">
+                </div>
+            </div>
+        </div>
+    <nav class="nav-header">
+        <ul class="head-menu-item">
+            <li class="nav-item" id="home1" href="#home">Home</li>
+            <li class="nav-item" href="#destination">Destination</li>
+            <li class="nav-item" href="#about">About</li>
+            <li class="nav-item" href="#partner">Partner</li>
+        </ul>
+        <div class="buttons">
+            <div class="login-btn">
+                <button>Login</button>
+            </div>
+            <div class="register-btn">
+                <button>Register</button>
+           </div>
+          </div>
+        </div>
+    </nav>
+</header>
+<!--Section 1-->
+<section>
+<div class="section1">
+    <div class="section1-title">
+        <h1>Explore and <br>Travel</h1>
+        <span>Holiday Findler</span>
+    <div class="select">
+        <form method="get">
+            <select name="Location" id="Location">
+              <option value="l">Location</option>
+              <option value="l1">Location 1</option>
+              <option value="l2">Location 2</option>
+            </select>
+            <select name="Activity" id="Activity">
+               <option value="a">Activity</option>
+               <option value="a1">Activity 1</option>
+               <option value="a2">Activity 2</option>
+            </select>
+            <br>
+            <select name="Grade" id="Grade">
+                <option value="g">Grade</option>
+                <option value="g1">Grade 1</option>
+                <option value="g2">Grade 2</option>
+            </select>
+            <select name="Date" id="Date">
+                <option value="d">Date</option>
+                <option value="d1">Date 1</option>
+                <option value="d2">Date 2</option>
+            </select>
+        <div class="select-btn">
+            <button>Explore</button>
+        </div>   
+        
+        :root {
+    --main-color: #fb8f1d;
+    --text-color: #202336;
+    --op-text-color: #b8becd;
+  }
+ 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+ 
+  .wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+ 
+  html {
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+ 
+  body {
+    background: white;
+    width: 100%;
+  }
+ 
+  .logo {
+    margin: 45px 191px
+  }
+  .logo1 {
+    position: relative;
+  }
+  .logo2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 15px;
+    color: #b8becd;
+  }
+  #home1 {
+    font-style: bold;
+    color: black;
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul li {
+    display: inline;
+    margin: 25px;
+    }
+  nav ul + li {
+    margin-left: 25px;
+  }
+  nav a {
+    font-weight: 600;
+  }
+  .buttons {
+    display: flex;
+    gap: 8px;
+    margin-left: 35px;
+  }
+  .buttons .login-btn button {
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    background-color: white;
+    height: 44px;
+    width: 132px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 600;
+ }
+ .buttons .register-btn button {
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    background-color: #fb8f1d;
+    height: 44px;
+    width: 132px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+ }
+
+ /*Section1*/
+
+ .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1046px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.section1-title h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--text-color);
+}
+.section1-title span {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--text-color);
+    margin-top: 74px;
+}
+.section1 .select {
+    width: 30px;
+    height: 3px;
+    border-radius: 4px;
+    background: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+form select {
+    width: 220px;
+    height: 50px;
+    border: 0, 8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 10px 100px 10px 20px;
+    margin: 30px 15px 0px 0px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
