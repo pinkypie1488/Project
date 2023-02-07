@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>thousand</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Mulish:wght@500&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+  </head>
+<body class="wraper">
+
+    <!--HEADER-->
+
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="header-nav">
+            <ul>
+                <li hreef="#home" id="home">Home</li>
+                <li hreef="#Dest">Desetination</li>
+                <li hreef="about">About</li>
+                <li hreef="Partner">Partner</li>
+            </ul>
+            <div class="buttons">
+                <button class="login-btn">Login</button>
+                <button class="register-btn">Register</button>
+            </div>
+        </div>
+    </header>
+
+<!--Section1-->
+
+<section>
+    <div class="section1">
+      <div class="section1-title">
+          <h1>Explore and Travel</h1>
+          <span>Holiday findler</span>
+      <div class="select">
+          <form method="get">
+              <select name="Location" id="Location">
+                <option value="l">Location</option>
+                <option value="l1">Location 1</option>
+                <option value="l2">Location 2</option>
+              </select>
+              <select name="Activity" id="Activity">
+                 <option value="a">Activity</option>
+                 <option value="a1">Activity 1</option>
+                 <option value="a2">Activity 2</option>
+              </select>
+              <select name="Grade" id="Grade">
+                  <option value="g">Grade</option>
+                  <option value="g1">Grade 1</option>
+                  <option value="g2">Grade 2</option>
+              </select>
+              <select name="Date" id="Date">
+                  <option value="d">Date</option>
+                  <option value="d1">Date 1</option>
+                  <option value="d2">Date 2</option>
+              </select>
+          </form>
+          <div class="select-btn">
+              <button>Explore</button>
+          </div>
+      </div> 
+      </div>
+     <div class="image1">
+      <img src="/images/thousand-01 1 (1).png" alt="image1">
+         </div>
+  </div>  
+  </section>
+
+<!--Section2-->
+
+<section class="section2">
+    <div class="image2">
+        <img src="images/Thousand-02 1.png" alt="image2">
+    </div>
+    <div class="text-continer1">
+        <h2>A new way to explore the world</h2>
+        <span>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</span>
+        <div class="lrn-btn">
+            <button>Lern more</button>
+        </div>
+    </div>
+</section>
+
+<!--Section3-->
+<section>
+    <div class=text-continer2>
+        <h2>Fetured destination</h2>
+        <span>Viev all <img src="images/Vector 1.png"></span>
+    </div>
+    <div class="gallery-continer">
+        <div class="gallery1">
+            <img src="images/image 4.png">
+            <h3>Raja Ampat Indonesia</h3>
+        </div>
+        <div class="gallery2">
+            <img src="images/Screen Shot 2020-02-14 at 4.36 1.png">
+            <h3>Fanjingshan China</h3>
+        </div>
+        <div class="gallery3">
+            <img src="images/Screen Shot 2020-02-15 at 11.04 1.png">
+            <h3>Vevey Switzerland</h3>
+        </div>
+        <div class="gallery4">
+            <img src="images/Screen Shot 2020-02-15 at 11.10 1.png">
+            <h3>Skadar Montenegro</h3>
+        </div>              
+    </div>
+</section>
+
+<!--Section4-->
+
+<section class="section4">
+    <div class="text-continer3">
+        <h2>Guides by Thousand Sunny</h2>
+        <span>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</span>
+        <div class="dwn-btn">
+            <button>Download</button>
+        </div>
+    </div>
+        <div class="image3">
+            <img src="images/Thousand-03.png" alt="image3">
+        </div>
+</section>
+
+<!--Section5-->
+
+<section class="section5">
+    <div class="text-continer4">
+        <h2>Testimonials</h2>
+        <img src="images/stars.png">
+        <blockquote>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</blockquote>
+        <span><a id="edward">Edward Newgate</a> <br><a id="circle">Founder Circle</a></span>
+    </div>
+    <div class="gallery-continer2">
+        <div class="gallery5">
+        <img class="figure" src="images/image 6.png">
+        <div class="next-previous">
+         <img class="previous" src="images/previous.png">
+         <img class="next" src="images/next.png">
+        </div>
+    </div>
+</section>
+
+
+:root {
+  --main-color: #fb8f1d;
+  --text-color: #202336;
+  --op-text-color: #b8becd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.wraper {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 100px;
+
+}
+.wraper img {
+  width: 100;
+}
+
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  width: 100%;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inter;
+}
+.header-nav{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav ul li {
+  display: inline-flex;
+  justify-content: space-between;
+  color: var(--op-text-color);
+  cursor: pointer;
+  align-items: center;
+  margin: 30px;
+  font-size: 16px;
+}
+.header-nav ul li:hover {
+  color: var(--main-color);
+  transition: 0.6s;
+}
+#home {
+  font-style: bold;
+  color: black;
+  font-weight: 600;
+}
+#home:hover {
+  color: var(--main-color);
+  transition: 0,6s;
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+.login-btn {
+  width: 132px;
+  height: 44px;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  background-color: white;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background-color: #fb8f1d;
+  color: white;
+  transition: 1s;
+}
+.register-btn {
+  width: 132px;
+  height: 44px;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.register-btn:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition: 1s;
+}
+
+/*Section1*/
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+}
+.section1-title h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--text-color);
+  margin-bottom: 74px;
+  font: Playfair Display;
+}
+.section1-title span {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--text-color);
+  font: Inter;
+}
+.section1 .select {
+  width: 30px;
+  height: 3px;
+  border-radius: 4px;
+  background: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  font: inter;
+}
+form select {
+  width: 220px;
+  height: 50px;
+  border: 0, 8px solid #AFB0B9;
+  border-radius: 6px;
+  padding: 10px 100px 10px 20px;
+  margin: 30px 15px 0px 0px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+form {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.select-btn button {
+border: 1px solid var(--main-color);
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  height: 52px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 47px;
+}
+.select-btn button:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition: 1s;
+}
+
+/*Section2*/
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 329px;
+}
+.section2 .text-continer1 h2 {
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  font-family: Playfair Display;
+
+}
+.text-continer1 {
+  width: 400px;
+  height: 120px;
+  margin-left: 180px;
+}
+.section2 .text-continer1 span {
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--op-text-color);
+  line-height: 30px;
+  font-family: Inter;
+}
+.section2 .lrn-btn button {
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  height: 48px;
+  width: 164px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 47px;
+}
+.section2 .lrn-btn button:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition: 1s;
+}
+
+/*Section3*/
+
+.text-continer2 {
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+}
+.text-continer2 h2 {
+  width: 481px;
+  height: 50px;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: auto;
+  font-family: Playfair Display;
+}
+.text-continer2 span {
+  width: 64px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--main-color);
+  font-family: Inter;
+}
+.text-continer2 img {
+  width: 4px;
+  height: 9px;
+}
+.gallery-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 95px;
+  grid-gap: 25px;
+  font-family: inter;
+}
+.gallery-continer img {
+  width: 100%;
+  height: 100%;
+}
+.gallery1 {
+  position: relative;
+}
+.gallery1 h3 {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0.1px;
+  border: 1px;
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+}
+.gallery2 {
+  position: relative;
+}
+.gallery2 h3 {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0.1px;
+  border: 1px;
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+}
+.gallery3 {
+  position: relative;
+}
+.gallery3 h3 {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0.1px;
+  border: 1px;
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+}
+.gallery4 {
+  position: relative;
+}
+.gallery4 h3 {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0.1px;
+  border: 1px;
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+}
+
+/*section4*/
+
+.section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 329px;
+}
+.section4 .text-continer3 h2 {
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  font-family: Playfair Display;
+
+}
+.text-continer3 {
+  width: 450px;
+  height: 90px;
+  margin-left: 240px;
+}
+.section4 .text-continer3 span {
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--op-text-color);
+  line-height: 30px;
+  font-family: Inter;
+}
+.section4 .dwn-btn button {
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  height: 48px;
+  width: 164px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 47px;
+}
+.section4 .dwn-btn button:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition: 1s;
+}
+
+/*Section5*/
+
+.section5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 248px;
+}
+.section5 .text-continer4 h2 {
+  width: 481px;
+  height: 50px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 36px;
+}
+.section5 .text-continer4 img {
+  width: 189px;
+  height: 24px;
+  margin-top: 145px;
+  margin-bottom: 35px;
+}
+.section5 .text-continer4 blockquote {
+  width: 450px;
+  height: 144px;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+#edward {
+  width: 183px;
+  height: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 22px;
+
+}
+#circle {
+  width: 124px;
+  height: 48px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+}
+.gallery-continer2 .gallery5 .figure{
+  width: 384px;
+  height: 491px;
+  border: 1px;
+  border-radius: 8px;
+  position: relative;
+}
+.gallery-continer2 .gallery5 .next-previous {
+  width: 132px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  right: 5px;
+}
+.previous {
+  width: 40px;
+  height: 40px;
+}
+.next {
+  width: 40px;
+  height: 40px;
+}
