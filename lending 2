@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Untitled</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+<body>
+<div class="wrapper">
+  <!--Header-->
+  <header class="header">
+    <div class="logo">
+      <img src="/images/IMAGE.png">
+    </div>
+    <div class="head-nav">
+      <ul>
+        <li>Sounds</li>
+        <li>Skills</li>
+        <li>Plugins</li>
+        <li>Studio</li>
+        <li>Community</li>
+        <li>Blog</li>
+        <li>Pricing </li>
+      </ul>
+    </div>
+    <div class="buttons">
+      <button class="login-btn">Login</button>
+      <button class="register-btn">Sign UP</button>
+    </div>
+  </header>
+  <!--Advartising-->
+  <span class="advartising">🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.</span>
+  <!--Section1-->
+ <section class="section1">
+  <div class="text-continer1">
+  <h1>Step into the producer’s playground</h1>
+  <span>Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.</span>
+  <button>Try free</button>
+  </div>
+  <div class="learnmore">
+  <p>Learn More </i></p>
+  <i class="arrowdown"></i>
+  </div>
+ </section>
+ <!--Section2-->
+
+<section class="section2">
+  <div class="text-continer2">
+    <span class="sounds">SOUNDS</span>
+    <h2>A catalog so deep, it’s dangerous.</h2>
+    <span>Expertly created and curated samples in any style imaginable. Start swimming in sound.</span>
+    <div class="explore-btn">
+    <button>Explore Sounds</button> 
+    </div>
+  </div>
+  <img src="/images/IMAGE (2).png">
+</section>
+<!--Section3-->
+ <section class="section3">
+    <div class="image1">
+        <img src="/images/IMAGE (3).png">
+    </div>
+    <div class="text-continer3">
+        <span>Connected Experience</span>
+        <h2>A workflow that actually flows.</h2>
+        <span class="Preview">Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your favorite samples, MIDI and presets in one place.</span>
+        <div class="lrn-btn">
+            <button>Lern more</button>
+        </div>
+    </div>
+</section>
+ </section>
+</div>
+
+
+
+
+
+:root {
+    --main-color: #0033FF;
+    --text-color: #FFFFFF;
+    --op-text-color: #000000;
+ }
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  html {
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    width: 100%;
+  }
+  .wrapper {
+    max-width: 100%;
+  }
+  .wrapper header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .wrapper section {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  /*header*/
+header {
+    background: var(--op-text-color);
+    background-size: cover;
+}
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Roboto;
+  }
+  .logo {
+    margin-right: 100px;
+    width: 97px;
+    height: 30px;
+  }
+  .head-nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .head-nav ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+ .buttons {
+    margin-left: auto;
+ }
+ .buttons .login-btn {
+    width: 42px;
+    height: 20px;
+    color: #A6A8AD;
+    background: var(--op-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+    cursor: pointer;
+ }
+ .buttons .register-btn {
+    width: 95px;
+    height: 35px;
+    border-radius: 35px;
+    color: var(--op-text-color);
+    background: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+    margin-left: 20px;
+    cursor: pointer;
+ }
+ .head-nav ul li:hover {
+    color: var(--main-color);
+    transition: 0.6s;
+ }
+ .buttons .login-btn:hover {
+    color: var(--main-color);
+    transition: 0.6s;
+ }
+ .buttons .register-btn:hover {
+    color: var(--text-color);
+    transition: 0.6s;
+    background-color: var(--main-color);
+ }
+ /*advartising*/
+ .advartising {
+    background: var(--main-color);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+    cursor: pointer;
+ }
+ .advartising:hover {
+    background: red;
+    color: var(--op-text-color);
+    transition: 0.7s;
+ }
+ /*Section1*/
+
+ .section1 {
+    background-image: url(/images/IMAGE\ \(1\).png);
+    background-size: cover;
+ }
+ .section1 h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+
+ }
+  .text-continer1  {
+    width: 450px;
+    height: 48px;
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 70px;
+ } 
+ .section1 button {
+    width: 125px;
+    height: 56px;
+    border-radius:  8px;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 44px;
+}
+.section1 button:hover {
+    color: var(--op-text-color);
+    background-color: red;
+    transition: 0.6s;
+}
+.section1 .learnmore {
+   padding-top: 620px;
+   padding-left: 720px;
+   color: var(--text-color);
+   font-family: Roboto;
+   font-weight: 400px;
+   font-size: 16px;
+}
+.learnmore i {
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding: 3px;
+   margin-left: 40px;
+}
+.arrowdown {
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+}
+/*section2*/
+.section2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: var(--op-text-color);
+
+}
+.text-continer2 {
+   padding-top: 204px;
+}
+.text-continer2 .sounds {
+   color: var(--text-color);
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 12px;
+}
+.text-continer2 h2 {
+   color: var(--text-color);
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 28px;
+}
+.text-continer2 span {
+   font-family: Roboto;
+   font-weight: 400;
+   color: var(--text-color);
+   font-size: 16px;
+   width: 374px;
+   height: 48px;
+}
+.section2 .explore-btn button {
+   width: 125px;
+   height: 56px;
+   border-radius:  8px;
+   border-color: var(--main-color);
+   background-color: var(--main-color);
+   color: var(--text-color);
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 400;
+   cursor: pointer;
+   margin-top: 44px;
+  
+}
+.section2 img {
+   padding-top: 90px;
+   padding-left: 352px;
+   height: auto;
+   width: auto;
+
+}
