@@ -142,6 +142,84 @@
         </div>
     </section>
     
+     <!--Section6-->
+
+    <section class="section6">
+        <div class="text-continer5">
+            <h2>Trending stories</h2>
+            <span>View all <i class="arrow-r1"></i></span>
+        </div>
+        <div class="gallery-continer3">
+            <div class="g1">
+                <img src="/image/image 12.png">
+                <h3>The many benefits of taking a healing holiday</h3>
+                <p class="p1">‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                <p id="readmore">Read more</p>
+            </div>
+            <div class="g2">
+                <img src="/image/image 13.png">
+                <h3>The best Kyoto restaurant to try Japanese food</h3>
+                <p class="p1">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...</p>
+                <p id="readmore">Read More</p>
+            </div>
+            <div class="g3">
+                <img src="/image/image 14.png">
+                <h3>Skip Chichen Itza and head to this remote Yucatan</h3>
+                <p class="p1">It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...</p>
+                <p id="readmore">Read More</p>
+            </div>
+            <div class="g4">
+                <img src="/image/image 15.png">
+                <h3>Surf’s up at these beginner spots around the world</h3>
+                <p class="p1">If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...</p>
+                <p id="readmore">Read More</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+ <!--Footer-->
+
+ <footer class="footer">
+    <div class="f-items">
+    <div class="f-item1">
+        <img src="/image/logo.png">
+        <p class="plan">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+        <p class="sun">©2020 Thousand Sunny. All rights reserved</p>
+    </div>
+    <div class="f-item2">
+        <h3>Destinations</h3>
+        <p>Africa</p>
+        <p>Antarctica</p>
+        <p>Asia</p>
+        <p>Europe</p>
+        <p>America</p>
+    </div>
+    <div class="f-item3">
+        <h3>Shop</h3>
+        <p>Destination Guides</p>
+        <p>Pictorial & Gifts</p>
+        <p>Special Offers</p>
+        <p>Delivery Times</p>
+        <p>FAQs</p>
+    </div>
+    <div class="f-item4">
+        <h3>Interests</h3>
+        <p>Advanture Travel</p>
+        <p>Art And Culture</p>
+        <p>Wildlife And Nature</p>
+        <p>Family Holidays</p>
+        <p>Food And Drink</p>
+    </div>
+    </div>
+    <hr>
+    <div class="socials">
+        <img src="/image/social media.png" alt="socials">
+    </div>
+ </footer>
+</body>
+</html>
+    
     
     root {
     --main-color: #fb8f1d;
@@ -585,6 +663,109 @@ form select {
   padding: 5px;
   transform: rotate(-45deg);
 
+}
+
+ /*Section6*/
+
+ .section6 {
+  padding-top: 100px;
+ }
+ .text-continer5 {
+  display: flex;
+  align-items: center;
+ }
+.text-continer5 h2 {
+  width: 481px;
+  height: 50px;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: auto;
+  font-family: Playfair Display;
+}
+.text-continer5 span {
+  width: 84px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--main-color);
+  font-family: Inter;
+}
+.arrow-r1 {
+  border: solid var(--main-color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.gallery-continer3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding-top: 56px;
+}
+.gallery-continer3 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px 8px 0 0;
+}
+.gallery-continer3 h3 {
+  width: 259px;
+  height: 70px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 19px;
+  padding-top: 10px;
+}
+.gallery-continer3 p {
+  width: 266px;
+  height: 78px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #7D7987;
+  line-height: 26px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+#readmore {
+  color: var(--main-color);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #F9F9FB;
+}
+.f-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+ padding: 0 100px;
+ padding-top: 100px;
+}
+
+.f-item1 .plan {
+  width: 300px;
+  height: 84px;
+  font-family: Muli;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 50px;
+  color: #848484;
+}
+.f-item1 .sun {
+  width: 391px;
+  height: 28px;
+  font-family: Muli;
+  font-weight: 300px;
+  font-size: 17px;
+  color: #848484;
+  padding-top: 50px;
 }
 
 
